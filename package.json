@@ -1,11 +1,11 @@
 {
   "name": "discord-bot-starter",
   "version": "0.0.1",
-  "description": "A clean modern starter template for Discord bots using TypeScript, ESLint, Prettier and latest Discord.js",
+  "description": "A modern minimal starter template for Discord bots using TypeScript, ESLint, Prettier, Discord.js and tsx compilation",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "start": "tsc && tsx ./src/index.ts",
+    "start": "tsx ./src/index.ts",
     "dev": "tsc && tsx watch ./src/index.ts | pino-pretty",
     "lint": "eslint --ext .ts",
     "prepare": "husky install"
