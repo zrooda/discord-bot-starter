@@ -1,7 +1,7 @@
 {
   "name": "discord-bot-starter",
   "version": "0.0.1",
-  "description": "A modern minimal starter template for Discord bots using TypeScript, ESLint, Prettier, Discord.js and tsx compilation",
+  "description": "A minimal starter template for personal Discord bots using TypeScript, ESLint, Prettier, Discord.js and esbuild/ESM compilation",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
