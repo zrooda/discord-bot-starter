@@ -1,0 +1,58 @@
+{
+  "name": "discord-bot-starter",
+  "version": "0.0.1",
+  "description": "A clean modern starter template for Discord bots using TypeScript, ESLint, Prettier and latest Discord.js",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && tsx ./src/index.ts",
+    "dev": "tsc && tsx watch ./src/index.ts | pino-pretty",
+    "lint": "eslint --ext .ts",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystrdat/discord-bot-starter.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordjs",
+    "typescript",
+    "eslint",
+    "prettier"
+  ],
+  "author": "mystrdat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mystrdat/discord-bot-starter/issues"
+  },
+  "homepage": "https://github.com/mystrdat/discord-bot-starter#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "joi": "^17.7.0",
+    "pino": "^8.8.0",
+    "pino-pretty": "^9.1.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
