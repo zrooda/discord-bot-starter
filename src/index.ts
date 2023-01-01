@@ -2,6 +2,7 @@ import dotenv from 'dotenv';
 import { Client } from 'discord.js';
 import { INTENTS } from './constants';
 import { validateEnv } from './utilities';
+
 (async () => {
   dotenv.config();
   validateEnv();
