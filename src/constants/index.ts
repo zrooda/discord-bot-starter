@@ -1,2 +1,2 @@
-export * from './envSchema'
-export * from './intents'
+export * from './envSchema';
+export * from './intents';

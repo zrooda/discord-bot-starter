@@ -1,4 +1,4 @@
-import joi from 'joi'
+import joi from 'joi';
 
 export const envSchema = joi
   .object()
@@ -7,4 +7,4 @@ export const envSchema = joi
     BOT_ID: joi.number().unsafe().required(),
     GUILD_ID: joi.number().unsafe().required(),
   })
-  .unknown()
+  .unknown();

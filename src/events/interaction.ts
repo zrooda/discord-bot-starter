@@ -1,8 +1,8 @@
-import { Interaction } from 'discord.js'
-import { logger } from '../utilities'
+import { Interaction } from 'discord.js';
+import { logger } from '../utilities';
 
 export const onInteraction = async (interaction: Interaction) => {
-  if (!interaction.isCommand()) return
+  if (!interaction.isCommand()) return;
 
-  logger.info(interaction)
-}
+  logger.info(interaction);
+};
