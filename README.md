@@ -2,7 +2,7 @@
 
 👷🏻 **Work In Progress**
 
-A modern minimal starter template for Discord bots.
+A minimal starter template for personal Discord bots.
 
 - TypeScript
 - ESLint
