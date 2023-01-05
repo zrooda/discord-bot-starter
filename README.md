@@ -13,7 +13,8 @@ A minimal starter template for personal Discord bots.
 
 ## Installation
 
-1. `npm i`
-2. Create a `.env` file in root (see `.env.example`)
-3. `npm start` for prod or `npm run dev` for development
-4. Tweak to your liking
+1. Generate a new repo using this template
+2. `npm i`
+3. Create an `.env` file in root (see `.env.example`)
+4. `npm start` for prod or `npm run dev` for development
+5. Build!
