@@ -1,5 +1,7 @@
 # discord-bot-starter
 
+👷🏻 **Work In Progress**
+
 A modern minimal starter template for Discord bots.
 
 - TypeScript
